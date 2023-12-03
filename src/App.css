@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #161A30 !important;
+  color: cyan !important;
+  user-select: none;
+}
+
+.app {
+  height: 100%;
+}
+
+.SemChoice,
+.PhysSemPage,
+.ChemSemPage,
+.contactpage,
+.aboutPage {
+  background-color: #161A30;
+  min-height: 80vh;
+}
+
+.contactpage,
+.aboutPage {
+  background: linear-gradient(90deg, rgba(18, 20, 36, 1) 0%, rgba(7, 62, 128, 0.5074404761904762) 100%);
+}
+
+
+.Navbar {
+  backdrop-filter: blur(15px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.DeveloperImage {
+  padding: 3px;
+  background-color: #31304D;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.PhySemImg,
+.ChemSemImg {
+  border-radius: 12px;
+  box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+    0px 2px 4px rgba(0, 255, 255, 0.5),
+    0px 4px 8px rgba(0, 255, 255, 0.5),
+    0px 8px 16px rgba(0, 255, 255, 0.5);
+}
+
+
+
+#Subjects {
+  background: yellow;
+  color: black;
+}
+
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg, #00DDEB, #00DDEB 50%, #00DDEB);
+  border: 0;
+  border-radius: 4px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  justify-content: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+  color: black;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 3px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+
+
+
+/* <button class="button-33" role="button">Button 33</button> */
+
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+.mailFeild input,
+textarea {
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  font-family: "Nova Flat", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  border: 0px solid transparent !important;
+  outline: none;
+}
+
+.mailFeild input,
+textarea,
+button {
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  background: linear-gradient(90deg, hsla(208, 33%, 21%, 1) 0%, hsla(211, 36%, 46%, 1) 100%);
+}
+
+#Link {
+  transition: all 450ms;
+}
+
+#Link:hover,
+#Link:active {
+  color: fuchsia;
+}
+
+#GsLogo,
+#GsNotes {
+  border: 2px solid cyan;
+  padding: 6px;
+  transition: all 400ms;
+}
+
+#GsLogo:hover,
+#GsLogo:active {
+  box-shadow: 0px 1px 2px rgba(0, 255, 255, 0.5),
+    0px 2px 4px rgba(0, 255, 255, 0.5),
+    0px 4px 8px rgba(0, 255, 255, 0.5),
+    0px 8px 16px rgba(0, 255, 255, 0.5);
+}
+
+.footer {
+  top: 100%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
